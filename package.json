@@ -1,0 +1,25 @@
+{
+  "name": "neural_style_transfer",
+  "version": "1.0.0",
+  "description": "Ever wished of creating paintings like a professional. Well, Deep Learning will surely help you in that regard with the help of Neural Style Transfer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:node": "",
+    "start:browser": "ts-node-dev --respawn --ignore \"node_modules\" --transpileOnly index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himujjal/neural_style_transfer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himujjal/neural_style_transfer/issues"
+  },
+  "homepage": "https://github.com/Himujjal/neural_style_transfer#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.40"
+  }
+}
